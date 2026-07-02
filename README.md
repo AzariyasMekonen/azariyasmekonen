@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm a software developer passionate about building AI-powered platforms, scalable software systems, and developer tools.<br><br>I enjoy working across the full stack, exploring cloud technologies, machine learning, and software architecture. My projects range from AI applications and enterprise systems to robotics, automation, and developer ecosystems.<br><br>I'm constantly learning, experimenting, and building. My goal is to create software that solves real-world problems while continuously improving my engineering skills.
+I'm a software developer passionate about building AI-powered platforms, scalable systems, and developer tools.<br><br>I enjoy working across the full stack, exploring cloud technologies, machine learning, and software architecture. My projects range from AI applications and enterprise systems to robotics, automation, and developer ecosystems.<br><br>I'm constantly learning, experimenting, and building. My goal is to create software that solves real-world problems while continuously improving my engineering skills.
 
 
 ## 🌐 Socials:
