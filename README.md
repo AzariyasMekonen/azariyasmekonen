@@ -15,7 +15,7 @@
 
 ---
 
-## 💫 About Me
+## About Me
 
 I'm a software developer passionate about building **AI-powered platforms, scalable systems, and developer tools**.
 
@@ -91,10 +91,6 @@ I'm constantly learning, experimenting, and building — my goal is to create so
   <img src="https://github-profile-trophy.vercel.app/?username=azariyasmekonen&theme=radical&row=1&column=7&margin-w=8&margin-h=8" />
 </p>
 
-> ℹ️ If this still doesn't render for you: this widget is a free Vercel demo and occasionally gets rate-limited (shows a broken image icon temporarily). Reload the page after a minute, or [self-host it](https://github.com/ryo-ma/github-profile-trophy#self-hosting) for guaranteed uptime.
-
----
-
 ## 🐍 Contribution Snake
 
 <!--START_SECTION:snake-->
@@ -118,11 +114,11 @@ I'm constantly learning, experimenting, and building — my goal is to create so
 ### 📌 Featured Repos
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=azariyasmekonen&repo=REPO_NAME_1&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=azariyasmekonen&repo=OWEN&theme=radical&hide_border=true" />
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=azariyasmekonen&repo=REPO_NAME_2&theme=radical&hide_border=true" />
 </p>
 
-> ⚠️ Replace `REPO_NAME_1` / `REPO_NAME_2` with your actual repo names. I removed the old "top contributed repo" widget (`github-contributor-stats.vercel.app`) — it's been broken/unmaintained for a long time across most profiles that use it, which is why it wasn't showing for you either. Pin cards like these pull real, live star/fork/language data per repo and are actively maintained.
+
 
 ---
 
