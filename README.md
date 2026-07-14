@@ -78,7 +78,7 @@ I'm constantly learning, experimenting, and building — my goal is to create so
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=azariyasmekonen&theme=react-dark&hide_border=true" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=azariyasmekonen&theme=react-dark&hide_border=true&count_private=true&include_all_commits=true" alt="Activity Graph" />
 </p>
 
 > ℹ️ Dropped `count_private=true` / `include_all_commits=true` — the public demo API can't see private-repo data with its shared token, which is almost certainly why numbers looked off. If you want private commits counted accurately, [self-host github-readme-stats](https://github.com/anuraghazra/github-readme-stats#deploy-your-own-instance) on Vercel with your own personal access token (free, ~5 min setup), then swap the domain in the URLs above for your deployed one.
