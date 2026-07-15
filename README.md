@@ -62,10 +62,6 @@ I'm constantly learning, experimenting, and building — my goal is to create so
   <img src="https://skillicons.dev/icons?i=git,github,postman,jest,figma,arduino,raspberrypi,cmake&theme=dark" />
 </p>
 
-> Icons are served live from [skillicons.dev](https://skillicons.dev) — hover states/click-to-link work fine, but GitHub strips page-level CSS, so true hover animation isn't possible inside the README itself. If you want extra motion here, an animated GIF banner (see note below) is the next best option.
-
----
-
 ## 📊 GitHub Stats (Live)
 
 <p align="center">
