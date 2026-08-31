@@ -19,9 +19,9 @@
 
 I'm a software developer passionate about building **AI-powered platforms, scalable systems, and developer tools**.
 
-I enjoy working across the full stack, exploring cloud technologies, machine learning, and software architecture. My projects range from AI applications and enterprise systems to robotics, automation, and developer ecosystems.
+I enjoy working across the system engineering, exploring cloud technologies, machine learning, and software architecture. My projects range from AI applications and enterprise systems to robotics, automation, and developer ecosystems.
 
-I'm constantly learning, experimenting, and building — my goal is to create software that solves real-world problems while continuously sharpening my engineering skills.
+I'm constantly learning, experimenting, and building.
 
 ---
 
