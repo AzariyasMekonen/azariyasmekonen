@@ -111,15 +111,11 @@ I'm constantly learning, experimenting, and building.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=azariyasmekonen&repo=OWEN&theme=radical&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=azariyasmekonen&repo=REPO_NAME_2&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=azariyasmekonen&repo=amharic-acos&theme=radical&hide_border=true" />
 </p>
 
 
 
 ---
-
-<p align="center">
-  <a href="https://visitcount.itsvg.in"><img src="https://komarev.com/ghpvc/?username=azariyasmekonen&icon=0&color=0" /></a>
-</p>
 
 <p align="center"><i>Proudly enhanced with GPRM (https://gprm.itsvg.in) + Claude ✨</i></p>
