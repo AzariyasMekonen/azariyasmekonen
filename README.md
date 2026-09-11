@@ -95,8 +95,6 @@ I'm constantly learning, experimenting, and building.
 </p>
 <!--END_SECTION:snake-->
 
-> ⚠️ The snake animation above needs a one-time GitHub Action setup in this repo (workflow file provided below) — it regenerates automatically on a schedule using your real contribution graph.
-
 ---
 
 ### ✍️ Random Dev Quote
@@ -114,8 +112,3 @@ I'm constantly learning, experimenting, and building.
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=azariyasmekonen&repo=amharic-acos&theme=radical&hide_border=true" />
 </p>
 
-
-
----
-
-<p align="center"><i>Proudly enhanced with GPRM (https://gprm.itsvg.in) + Claude ✨</i></p>
