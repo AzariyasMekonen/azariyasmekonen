@@ -62,7 +62,7 @@ I'm constantly learning, experimenting, and building.
   <img src="https://skillicons.dev/icons?i=git,github,postman,jest,figma,arduino,raspberrypi,cmake&theme=dark" />
 </p>
 
-## 📊 GitHub Stats (Live)
+##  GitHub Stats (Live)
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=azariyasmekonen&theme=radical&hide_border=true" />
