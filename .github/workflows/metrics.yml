@@ -1,0 +1,124 @@
+# Generates the profile stats SVGs used in README.md with lowlighter/metrics.
+#
+# Setup (one time):
+#   1. Create a classic Personal Access Token at https://github.com/settings/tokens
+#      with the scopes: `repo`, `read:user`, `read:org`.
+#      (`repo` is what lets private repositories and private contributions be counted.)
+#   2. Add it as a repository secret named `METRICS_TOKEN`
+#      (Settings → Secrets and variables → Actions → New repository secret).
+#   3. Make sure "Private contributions" is enabled in your GitHub profile settings.
+#   4. Run this workflow once from the Actions tab (or wait for the schedule).
+#
+# The generated SVGs are committed to the root of the default branch and referenced from README.md.
+
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check METRICS_TOKEN
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$METRICS_TOKEN" ]; then
+            echo "::error::METRICS_TOKEN secret is not set. See setup instructions at the top of .github/workflows/metrics.yml"
+            exit 1
+          fi
+
+      - name: Overview (stats, activity, community)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.overview.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: azariyasmekonen
+          template: classic
+          base: header, activity, community, repositories, metadata
+          repositories_affiliations: owner, collaborator, organization_member
+          config_timezone: Africa/Addis_Ababa
+          config_display: large
+
+      - name: Contribution calendar & streak
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: azariyasmekonen
+          base: ""
+          config_timezone: Africa/Addis_Ababa
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: azariyasmekonen
+          base: ""
+          config_timezone: Africa/Addis_Ababa
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_other: yes
+
+      - name: Coding habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: azariyasmekonen
+          base: ""
+          config_timezone: Africa/Addis_Ababa
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: no
+          plugin_habits_days: 14
+
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: azariyasmekonen
+          base: ""
+          config_timezone: Africa/Addis_Ababa
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
+
+      - name: Featured repositories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.repositories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: azariyasmekonen
+          base: ""
+          config_timezone: Africa/Addis_Ababa
+          plugin_repositories: yes
+          plugin_repositories_featured: OWEN, amharic-acos
