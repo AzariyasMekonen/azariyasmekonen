@@ -1,17 +1,19 @@
-# Generates the profile stats SVGs used in README.md with lowlighter/metrics.
+# Generates the profile stats cards used in README.md inside GitHub Actions, so they are
+# built from your own token (private repositories and contributions included) instead of
+# public hosted services. The cards keep the exact same look as the hosted versions.
 #
 # Setup (one time):
 #   1. Create a classic Personal Access Token at https://github.com/settings/tokens
-#      with the scopes: `repo`, `read:user`, `read:org`.
+#      with the scopes: `repo`, `read:user`.
 #      (`repo` is what lets private repositories and private contributions be counted.)
 #   2. Add it as a repository secret named `METRICS_TOKEN`
 #      (Settings → Secrets and variables → Actions → New repository secret).
 #   3. Make sure "Private contributions" is enabled in your GitHub profile settings.
 #   4. Run this workflow once from the Actions tab (or wait for the schedule).
 #
-# The generated SVGs are committed to the root of the default branch and referenced from README.md.
+# The generated SVGs are committed to the `profile/` folder and referenced from README.md.
 
-name: Generate Metrics
+name: Generate Stats Cards
 
 on:
   schedule:
@@ -25,8 +27,11 @@ concurrency:
   group: metrics
   cancel-in-progress: false
 
+env:
+  USERNAME: azariyasmekonen
+
 jobs:
-  metrics:
+  cards:
     runs-on: ubuntu-latest
     steps:
       - name: Check METRICS_TOKEN
@@ -38,87 +43,117 @@ jobs:
             exit 1
           fi
 
-      - name: Overview (stats, activity, community)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.overview.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: update ${filename} [skip ci]"
-          user: azariyasmekonen
-          template: classic
-          base: header, activity, community, repositories, metadata
-          repositories_affiliations: owner, collaborator, organization_member
-          config_timezone: Africa/Addis_Ababa
-          config_display: large
+      - uses: actions/checkout@v4
 
-      - name: Contribution calendar & streak
-        uses: lowlighter/metrics@latest
+      # ---- github-readme-stats cards (stats, top languages, pinned repos) ----
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          filename: metrics.isocalendar.svg
+          card: stats
+          options: username=${{ env.USERNAME }}&theme=radical&hide_border=true
+          path: profile/stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: update ${filename} [skip ci]"
-          user: azariyasmekonen
-          base: ""
-          config_timezone: Africa/Addis_Ababa
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          fail_on_error: true
 
-      - name: Languages
-        uses: lowlighter/metrics@latest
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          filename: metrics.languages.svg
+          card: top-langs
+          options: username=${{ env.USERNAME }}&theme=radical&hide_border=true&layout=compact
+          path: profile/top-langs.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: update ${filename} [skip ci]"
-          user: azariyasmekonen
-          base: ""
-          config_timezone: Africa/Addis_Ababa
-          repositories_affiliations: owner, collaborator, organization_member
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_other: yes
+          fail_on_error: true
 
-      - name: Coding habits
-        uses: lowlighter/metrics@latest
+      - name: Pin card (OWEN)
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          filename: metrics.habits.svg
+          card: pin
+          options: username=${{ env.USERNAME }}&repo=OWEN&theme=radical&hide_border=true
+          path: profile/pin-OWEN.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: update ${filename} [skip ci]"
-          user: azariyasmekonen
-          base: ""
-          config_timezone: Africa/Addis_Ababa
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: no
-          plugin_habits_days: 14
+          fail_on_error: true
 
-      - name: Achievements
-        uses: lowlighter/metrics@latest
+      - name: Pin card (amharic-acos)
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          filename: metrics.achievements.svg
+          card: pin
+          options: username=${{ env.USERNAME }}&repo=amharic-acos&theme=radical&hide_border=true
+          path: profile/pin-amharic-acos.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: update ${filename} [skip ci]"
-          user: azariyasmekonen
-          base: ""
-          config_timezone: Africa/Addis_Ababa
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: B
+          fail_on_error: true
 
-      - name: Featured repositories
-        uses: lowlighter/metrics@latest
+      # ---- Streak stats ----
+      - name: Streak card
+        uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          filename: metrics.repositories.svg
+          options: user=${{ env.USERNAME }}&theme=radical&hide_border=true
+          path: profile/streak.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: update ${filename} [skip ci]"
-          user: azariyasmekonen
-          base: ""
-          config_timezone: Africa/Addis_Ababa
-          plugin_repositories: yes
-          plugin_repositories_featured: OWEN, amharic-acos
+
+      # ---- Activity graph (github-readme-activity-graph, run locally) ----
+      - name: Checkout activity graph generator
+        uses: actions/checkout@v4
+        with:
+          repository: Ashutosh00710/github-readme-activity-graph
+          ref: 0962e9461de815933d462e8b98c7ce566cada8fb
+          path: .tools/activity-graph
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Activity graph
+        working-directory: .tools/activity-graph
+        env:
+          TOKEN: ${{ secrets.METRICS_TOKEN }}
+          PORT: "5100"
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+          node dist/main.js > server.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf -o /dev/null "http://localhost:$PORT/" && break; sleep 1; done
+          out="$GITHUB_WORKSPACE/profile/activity-graph.svg"
+          mkdir -p "$(dirname "$out")"
+          curl -sf -o "$out" "http://localhost:$PORT/graph?username=$USERNAME&theme=react-dark&hide_border=true"
+          if ! grep -q "<svg" "$out" || grep -qE "Can't fetch|Something unexpected|rate limit" "$out"; then
+            cat server.log
+            echo "::error::Failed to generate the activity graph"
+            exit 1
+          fi
+
+      # ---- Trophies (github-profile-trophy, run locally) ----
+      - name: Checkout trophy generator
+        uses: actions/checkout@v4
+        with:
+          repository: ryo-ma/github-profile-trophy
+          ref: e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+          path: .tools/trophy
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Trophy card
+        working-directory: .tools/trophy
+        env:
+          GITHUB_TOKEN1: ${{ secrets.METRICS_TOKEN }}
+          PORT: "8080"
+        run: |
+          deno run -A main.ts > server.log 2>&1 &
+          for i in $(seq 1 120); do curl -s -o /dev/null "http://localhost:$PORT/" && break; sleep 1; done
+          out="$GITHUB_WORKSPACE/profile/trophy.svg"
+          if ! curl -sf -o "$out" "http://localhost:$PORT/?username=$USERNAME&theme=radical&row=1&column=7&margin-w=8&margin-h=8" \
+             || ! grep -q "<svg" "$out"; then
+            cat server.log
+            echo "::error::Failed to generate the trophy card"
+            exit 1
+          fi
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
+          git commit -m "chore: update profile stats cards [skip ci]"
+          git push
