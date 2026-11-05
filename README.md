@@ -79,11 +79,6 @@ I'm constantly learning, experimenting, and building.
 
 ---
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="profile/trophy.svg" />
-</p>
 
 ## 🐍 Contribution Snake
 
