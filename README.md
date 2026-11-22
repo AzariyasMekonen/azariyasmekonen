@@ -25,72 +25,42 @@ I'm constantly learning, experimenting, and building.
 
 ---
 
-## 💻 Tech Stack
+## Skills
 
-<p align="center">
-  <b>Languages</b><br/>
-  <img src="https://skillicons.dev/icons?i=js,ts,py,java,cpp,html,css&theme=dark" />
-</p>
+  <img src="https://skillicons.dev/icons?i=js,ts,py,java,cpp,dart,assembly,react,nextjs,redux,tailwind,sass,astro,vite,threejs,flutter,nodejs,express,django,fastapi,flask,spring,graphql,pytorch,tensorflow,sklearn,opencv,mongodb,postgres,mysql,redis,sqlite,supabase,firebase,aws,azure,gcp,docker,kubernetes,cloudflare,vercel,netlify,nginx,apache,kafka,rabbitmq,git,github,postman,jest,figma,arduino,raspberrypi,cmake&theme=dark" />
 
-<p align="center">
-  <b>Frontend</b><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,sass,astro,vite,threejs,flutter&theme=dark" />
-</p>
 
-<p align="center">
-  <b>Backend</b><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi,flask,spring,graphql&theme=dark" />
-</p>
+##  Git Stats
 
-<p align="center">
-  <b>Data & ML</b><br/>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" />
-</p>
 
-<p align="center">
-  <b>Databases</b><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,sqlite,supabase,firebase&theme=dark" />
-</p>
+<div align="center">
+  <div>
+    <img src="profile/stats.svg" width="49%" />
+    <img src="profile/top-langs.svg" width="49%" />
+  </div>
 
-<p align="center">
-  <b>Cloud & DevOps</b><br/>
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,cloudflare,vercel,netlify,nginx,apache,kafka,rabbitmq&theme=dark" />
-</p>
+  <br />
 
-<p align="center">
-  <b>Tools & Other</b><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,postman,jest,figma,arduino,raspberrypi,cmake&theme=dark" />
-</p>
+  <img src="profile/streak.svg" width="98%" alt="GitHub Streak" />
 
-##  GitHub Stats (Live)
+  <br /><br />
 
-<p align="center">
-  <img height="165" src="profile/stats.svg" />
-  <img height="165" src="profile/top-langs.svg" />
-</p>
-
-<p align="center">
-  <img src="profile/streak.svg" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="profile/activity-graph.svg" alt="Activity Graph" />
-</p>
-
+  <img src="profile/activity-graph.svg" width="98%" alt="Activity Graph" />
+</div>
 ---
 
 
-## 🐍 Contribution Snake
+
 
 <!--START_SECTION:snake-->
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/azariyasmekonen/azariyasmekonen/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</p>
+</p> -->
 <!--END_SECTION:snake-->
 
 ---
 
-### ✍️ Random Dev Quote
+###  Random Dev Quote
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
@@ -98,7 +68,7 @@ I'm constantly learning, experimenting, and building.
 
 ---
 
-### 📌 Featured Repos
+###  Featured Repos
 
 <p align="center">
   <img src="profile/pin-OWEN.svg" />
