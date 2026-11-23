@@ -1,0 +1,108 @@
+{
+  "_about": "Hand-kept facts for the profile. Each one has its source and the date it was read beside it. Numbers that change by themselves (contributions, streaks, repos, stars, downloads, X followers, videos, App Store data) are fetched by scripts/fetch.py and never typed here.",
+  "user": "AzariyasMekonen",
+  "name": "Azariyas",
+  "domain": "github.com",
+  "created": {
+    "value": "2023-10-14",
+    "source": "GitHub API users/AzariyasMekonen, created_at",
+    "as_of": "2026-11-25"
+  },
+  "tagline": {
+    "value": "Software Developer | AI + Cloud + Scalable Systems",
+    "source": "github.com/AzariyasMekonen bio",
+    "as_of": "2026-11-25"
+  },
+  "youtube_channel_id": {
+    "value": "",
+    "source": "",
+    "as_of": "2026-11-25"
+  },
+  "itunes": {
+    "martva": 0,
+    "martva_country": "us",
+    "source": "",
+    "as_of": "2026-11-25"
+  },
+  "links": {
+    "source": "the owner's own profiles",
+    "as_of": "2026-11-25",
+    "youtube": {"label": "Instagram", "handle": "@c0d5_kn4ght", "url": "https://instagram.com/c0d5_kn4ght"},
+    "x": {"label": "X", "handle": "@azariyasme90324", "url": "https://x.com/azariyasme90324"},
+    "linkedin": {"label": "LinkedIn", "handle": "azariyas-mekonen", "url": "https://linkedin.com/in/azariyas-mekonen-000774378"},
+    "site": {"label": "Email", "handle": "azariyasmekonen@gmail.com", "url": "mailto:azariyasmekonen@gmail.com"}
+  },
+  "location": {
+    "value": "Addis Ababa, Ethiopia",
+    "source": "github.com/AzariyasMekonen profile",
+    "as_of": "2026-11-25"
+  },
+  "apps_source": "Azariyas Mekonen public repositories and projects",
+  "apps": [
+    {
+      "id": "adera-ai",
+      "name": "Adera-AI",
+      "icon": "icons/focusshell.png",
+      "line": "AI-powered platform for intelligent automation and data workflows.",
+      "status": "open source",
+      "chips": [["Python", "lx"], ["PyTorch", "rd"], ["FastAPI", "x"]],
+      "fact": ["tag", "stars", "Python"],
+      "tint": "lx",
+      "url": "https://github.com/AzariyasMekonen/Adera-AI",
+      "repo": "Adera-AI"
+    },
+    {
+      "id": "amharic-acos",
+      "name": "AMHARIC-ACOS",
+      "icon": "icons/editbay.png",
+      "line": "Amharic Optical Character Recognition & NLP system.",
+      "status": "open source",
+      "chips": [["Python", "bd"], ["Computer Vision", "lx"], ["NLP", "li"]],
+      "fact": ["tag", "stars", "Python"],
+      "tint": "bd",
+      "url": "https://github.com/AzariyasMekonen/AMHARIC-ACOS",
+      "repo": "AMHARIC-ACOS"
+    },
+    {
+      "id": "owen",
+      "name": "OWEN",
+      "icon": "icons/programmer-simulator.webp",
+      "line": "AI developer assistant and intelligent workflow execution engine.",
+      "status": "in the works",
+      "chips": [["TypeScript", "rd"], ["LLM", "yt"], ["Node.js", "li"]],
+      "fact": ["AI Assistant", "TypeScript"],
+      "tint": "rd",
+      "url": "https://github.com/AzariyasMekonen/OWEN",
+      "repo": "OWEN"
+    },
+    {
+      "id": "adwactf",
+      "name": "AdwaCTF",
+      "icon": "icons/martva.webp",
+      "line": "Cybersecurity CTF competition platform frontend & scoreboard.",
+      "status": "active",
+      "status_phone": "active",
+      "chips": [["React", "li"], ["Tailwind", "lx"], ["Web", "x"]],
+      "fact": ["CTF Platform", "React"],
+      "tint": "li",
+      "url": "https://github.com/AzariyasMekonen/AdwaCTF.v2.front",
+      "repo": "AdwaCTF.v2.front"
+    }
+  ],
+  "store_links": {
+    "martva_google_play": "https://github.com/AzariyasMekonen",
+    "martva_app_store": "https://github.com/AzariyasMekonen"
+  },
+  "more": [
+    {"name": "doc2deck", "url": "https://github.com/AzariyasMekonen/doc2deck"},
+    {"name": "baratieri-war-console", "url": "https://github.com/AzariyasMekonen/baratieri-war-console"},
+    {"name": "captured-maxim-gun", "url": "https://github.com/AzariyasMekonen/captured-maxim-gun"},
+    {"name": "Azu", "url": "https://github.com/AzariyasMekonen/Azu"}
+  ],
+  "now": [
+    "Building AI agents, automation pipelines, and developer tooling",
+    "Developing AMHARIC-ACOS multilingual NLP systems",
+    "Engineering secure CTF infrastructure at Adwa-CTF"
+  ],
+  "now_source": "the owner's current work, read 25 Nov 2026"
+}
