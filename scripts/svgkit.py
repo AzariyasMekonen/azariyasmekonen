@@ -156,12 +156,14 @@ class Svg:
         return self.chip(x, y, label, fill, "m500", size, 20, 10, 1.5, 10, 0, tcol)
 
     def zlogo(self, x, y, s):
-        """The ZazaG Dev mark (favicon.svg), drawn in the light colours in both themes."""
+        """The Azariyas logo mark (A), drawn in the light colours in both themes."""
         L = TOK["color"]["light"]
         k = s / 32
         self.add(f'<g transform="translate({x} {y}) scale({k:.3f})"><rect x="4" y="4" width="26" height="26" rx="6" fill="{L["pop"]}"/>'
                  f'<rect x="1.5" y="1.5" width="26" height="26" rx="6" fill="{L["bg"]}" stroke="{L["line"]}" stroke-width="2.5"/>'
-                 f'<path d="M9 8.5h14v3.6L14.6 20h8.4v3.5H9v-3.6l8.4-7.9H9z" transform="translate(-1.5 -1.5)" fill="{L["line"]}"/></g>')
+                 f'<path d="M13 7.5h3l6.5 15h-4l-1.3-4h-5.4l-1.3 4h-4z M14.5 11.2l1.6 4.3h-3.2z" fill="{L["line"]}"/></g>')
+
+    alogo = zlogo
 
     def image(self, x, y, w, h, href, r=0, stroke=True, pixel=False):
         cid = self.uid("clip")
