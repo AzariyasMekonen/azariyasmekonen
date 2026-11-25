@@ -36,25 +36,25 @@ class Net:
             with open(path, "rb") as f:
                 data = f.read()
         else:
-            cmd = ["curl", "-4", "-sL", "-A", UA]
+            cmd = ["curl", "-4", "--compressed", "-sL", "-A", UA]
             if self.token and url.startswith("https://api.github.com/"):
                 cmd += ["-H", f"Authorization: Bearer {self.token}"]
             cmd.append(url)
             try:
                 import subprocess
-                res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=25)
+                res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120)
                 if res.returncode != 0 or not res.stdout:
-                    raise SourceError(f"{url}: curl exit {res.returncode}")
+                    raise SourceError(f"{url}: curl exit {res.returncode}: {res.stderr.decode('utf8', errors='ignore')}")
                 data = res.stdout
-            except Exception:
+            except Exception as e:
                 try:
                     headers = {"User-Agent": UA}
                     if self.token and url.startswith("https://api.github.com/"):
                         headers["Authorization"] = f"Bearer {self.token}"
-                    with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=25) as r:
+                    with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=120) as r:
                         data = r.read()
-                except Exception as e:
-                    raise SourceError(f"{url}: {e}")
+                except Exception as e2:
+                    raise SourceError(f"{url}: {e} / fallback: {e2}")
             if self.record:
                 os.makedirs(self.fixtures, exist_ok=True)
                 saved = slim_contrib(data.decode("utf8")).encode("utf8") if name.startswith("contrib-") else data
