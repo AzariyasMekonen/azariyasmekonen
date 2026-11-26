@@ -1,25 +1,25 @@
 <a href="mailto:azariyasmekonen@gmail.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/hero-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Hi, I&#x27;m Azariyas. Software Developer | AI + Cloud + Scalable Systems"></picture></a>
 
 <p align="center">
-<a href="https://instagram.com/az4ri_ah"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-yt-dark.svg"><img src="assets/badge-yt-light.svg" height="44" alt="Instagram @az4ri_ah"></picture></a>
-<a href="https://x.com/iamazariyas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-x-dark.svg"><img src="assets/badge-x-light.svg" height="44" alt="X @iamazariyas"></picture></a>
+<a href="https://instagram.com/c0d5_kn4ght"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-yt-dark.svg"><img src="assets/badge-yt-light.svg" height="44" alt="Instagram @c0d5_kn4ght"></picture></a>
+<a href="https://x.com/azariyasme90324"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-x-dark.svg"><img src="assets/badge-x-light.svg" height="44" alt="X @azariyasme90324"></picture></a>
 <a href="https://linkedin.com/in/azariyas-mekonen-000774378"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-li-dark.svg"><img src="assets/badge-li-light.svg" height="44" alt="LinkedIn azariyas-mekonen"></picture></a>
 <a href="mailto:azariyasmekonen@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-site-dark.svg"><img src="assets/badge-site-light.svg" height="44" alt="Email azariyasmekonen@gmail.com"></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/github-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/github-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/github-dark.svg"><img src="assets/github-light.svg" width="100%" alt="On GitHub: 1,288 contributions in the last year, a 69-day current streak, since 18 Sep, longest streak 69 days, 1,435 contributions since 2023, 37 public repos, 42 stars earned, 0 downloads of my releases."></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/github-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/github-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/github-dark.svg"><img src="assets/github-light.svg" width="100%" alt="On GitHub: 1,289 contributions in the last year, a 70-day current streak, since 18 Sep, longest streak 70 days, 1,436 contributions since 2023, 37 public repos, 42 stars earned, 0 downloads of my releases."></picture>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-6m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-6m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-6m-dark.svg"><img src="assets/graph-6m-light.svg" width="100%" alt="1,233 contributions in the last 6 months"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-6m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-6m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-6m-dark.svg"><img src="assets/graph-6m-light.svg" width="100%" alt="1,234 contributions in the last 6 months"></picture>
 
-<details><summary>Last 12 months: 1,288 contributions</summary>
+<details><summary>Last 12 months: 1,289 contributions</summary>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-12m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-12m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-12m-dark.svg"><img src="assets/graph-12m-light.svg" width="100%" alt="1,288 contributions in the last 12 months"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-12m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-12m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-12m-dark.svg"><img src="assets/graph-12m-light.svg" width="100%" alt="1,289 contributions in the last 12 months"></picture>
 
 </details>
 
-<details><summary>2026: 1,283 contributions</summary>
+<details><summary>2026: 1,284 contributions</summary>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-2026-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-2026-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-2026-dark.svg"><img src="assets/graph-2026-light.svg" width="100%" alt="1,283 contributions in 2026"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-2026-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-2026-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-2026-dark.svg"><img src="assets/graph-2026-light.svg" width="100%" alt="1,284 contributions in 2026"></picture>
 
 </details>
 
@@ -41,7 +41,7 @@
 
 </details>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/line-30d-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/line-30d-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/line-30d-dark.svg"><img src="assets/line-30d-light.svg" width="100%" alt="356 contributions in the last 30 days"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/line-30d-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/line-30d-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/line-30d-dark.svg"><img src="assets/line-30d-light.svg" width="100%" alt="350 contributions in the last 30 days"></picture>
 
 <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/whoami-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/whoami-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg"><img src="assets/whoami-light.svg" width="100%" alt="whoami: Azariyas, software developer, Addis Ababa, Ethiopia. I build AI-powered platforms, scalable systems, and developer tools. Now: Building AI agents, automation pipelines, and developer tooling. Developing AMHARIC-ACOS multilingual NLP systems. Engineering secure CTF infrastructure at Adwa-CTF."></picture>
 
