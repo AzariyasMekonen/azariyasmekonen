@@ -52,7 +52,3 @@
 <a href="https://github.com/AzariyasMekonen/OWEN"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/app-owen-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/app-owen-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/app-owen-dark.svg"><img src="assets/app-owen-light.svg" width="49%" alt="OWEN: AI developer assistant and intelligent workflow execution engine. In the works, AI Assistant, TypeScript."></picture></a>
 <a href="https://adwactf.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/app-adwactf-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/app-adwactf-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/app-adwactf-dark.svg"><img src="assets/app-adwactf-light.svg" width="49%" alt="AdwaCTF: Cybersecurity CTF competition platform frontend &amp; scoreboard. Active, CTF Platform, adwactf.com."></picture></a>
 </p>
-
-<p align="center"><sub>More projects & code: <a href="https://github.com/AzariyasMekonen/AMHARIC-ACOS">AMHARIC-ACOS</a> · <a href="https://github.com/AzariyasMekonen/doc2deck">doc2deck</a> · <a href="https://github.com/AzariyasMekonen/baratieri-war-console">baratieri-war-console</a> · <a href="https://github.com/AzariyasMekonen/captured-maxim-gun">captured-maxim-gun</a></sub></p>
-
-<p align="center"><sub>Interactive SVG Profile Cards · metrics updated nightly by GitHub Actions · <a href="https://github.com/AzariyasMekonen">github.com/AzariyasMekonen</a></sub></p>
