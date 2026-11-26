@@ -313,8 +313,17 @@ def app(t, a, data, P):
         s.text(x + 20, ly, line, "f500", 19)
         ly += 26
     cx = x + 20
+    chip_w = lambda lab, p: text_width(lab, "m500", 13) + 2 * p + 3
+    pad, gap = 9, 8
+    if a.get("chips"):
+        tot_w = sum(chip_w(lab, pad) for lab, _ in a["chips"]) + (len(a["chips"]) - 1) * gap
+        if tot_w > w - 40:
+            pad, gap = 7, 5
+            tot_w = sum(chip_w(lab, pad) for lab, _ in a["chips"]) + (len(a["chips"]) - 1) * gap
+        if tot_w > w - 40:
+            pad, gap = 6, 4
     for lab, fill in a["chips"]:
-        cx += s.chip(cx, y + 186, lab, fill, "m500", 13, 26, 9) + 8
+        cx += s.chip(cx, y + 186, lab, fill, "m500", 13, 26, pad) + gap
     text = "  ·  ".join(parts)
     while len(parts) > 1 and text_width(text, "m400", 15) > w - 40:
         parts = parts[:-1]

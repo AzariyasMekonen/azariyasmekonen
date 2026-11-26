@@ -51,16 +51,16 @@
       "repo": "Adera-AI"
     },
     {
-      "id": "amharic-acos",
-      "name": "AMHARIC-ACOS",
+      "id": "rage-baiter",
+      "name": "Rage-Baiter",
       "icon": "icons/editbay.png",
-      "line": "Amharic Optical Character Recognition & NLP system.",
+      "line": "Interactive AI voice agent designed for provocative conversations.",
       "status": "open source",
-      "chips": [["Python", "bd"], ["Computer Vision", "lx"], ["NLP", "li"]],
-      "fact": ["tag", "stars", "Python"],
+      "chips": [["TypeScript", "bd"], ["React", "lx"], ["Vapi AI", "li"]],
+      "fact": ["tag", "stars", "TypeScript"],
       "tint": "bd",
-      "url": "https://github.com/AzariyasMekonen/AMHARIC-ACOS",
-      "repo": "AMHARIC-ACOS"
+      "url": "https://github.com/AzariyasMekonen/Rage-baiter",
+      "repo": "Rage-baiter"
     },
     {
       "id": "owen",
@@ -81,10 +81,10 @@
       "line": "Cybersecurity CTF competition platform frontend & scoreboard.",
       "status": "active",
       "status_phone": "active",
-      "chips": [["React", "li"], ["Tailwind", "lx"], ["Web", "x"]],
-      "fact": ["CTF Platform", "React"],
+      "chips": [["React", "li"], ["TypeScript", "lx"], ["Node", "go"], ["MongoDB", "rd"], ["+ more", "x"]],
+      "fact": ["CTF Platform", "adwactf.com"],
       "tint": "li",
-      "url": "https://github.com/AzariyasMekonen/AdwaCTF.v2.front",
+      "url": "https://adwactf.com",
       "repo": "AdwaCTF.v2.front"
     }
   ],
@@ -93,15 +93,15 @@
     "martva_app_store": "https://github.com/AzariyasMekonen"
   },
   "more": [
+    {"name": "AMHARIC-ACOS", "url": "https://github.com/AzariyasMekonen/AMHARIC-ACOS"},
     {"name": "doc2deck", "url": "https://github.com/AzariyasMekonen/doc2deck"},
     {"name": "baratieri-war-console", "url": "https://github.com/AzariyasMekonen/baratieri-war-console"},
-    {"name": "captured-maxim-gun", "url": "https://github.com/AzariyasMekonen/captured-maxim-gun"},
-    {"name": "Azu", "url": "https://github.com/AzariyasMekonen/Azu"}
+    {"name": "captured-maxim-gun", "url": "https://github.com/AzariyasMekonen/captured-maxim-gun"}
   ],
   "now": [
     "Building AI agents, automation pipelines, and developer tooling",
-    "Developing AMHARIC-ACOS multilingual NLP systems",
+    "Developing Rage-Baiter AI voice agent systems",
     "Engineering secure CTF infrastructure at Adwa-CTF"
   ],
-  "now_source": "the owner's current work, read 25 Nov 2026"
+  "now_source": "the owner's current work, read 26 Nov 2026"
 }
