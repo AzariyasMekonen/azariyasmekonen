@@ -37,6 +37,8 @@ def render(data, P):
     out = [link(L["site"]["url"], picture("hero", "100%", hero_label(P, data), "hero" in PHONE)), ""]
     badges = []
     for key, name in (("youtube", "yt"), ("x", "x"), ("linkedin", "li"), ("site", "site")):
+        if key not in L:
+            continue
         alt = f"{L[key]['label']} {L[key]['handle']}".strip()
         badges.append(link(L[key]["url"], picture(f"badge-{name}", "h44", alt)))
     out += ['<p align="center">', *badges, "</p>", ""]

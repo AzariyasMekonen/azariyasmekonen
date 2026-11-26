@@ -34,13 +34,15 @@ def make_assets(data, P):
         out[f"whoami-phone-{t}.svg"] = phone.whoami_phone(t, data, P)
         out[f"label-ship-{t}.svg"] = cards.label(t, "What I ship", f"{len(P['apps'])} flagship projects", "rd", "card")
         out[f"label-ship-phone-{t}.svg"] = phone.label_phone(t, "What I ship", "rd")
-        if data.get("videos") and data["videos"].get("videos"):
+        if data.get("videos") and data["videos"].get("videos") and "youtube" in P["links"]:
             out[f"label-videos-{t}.svg"] = cards.label(t, "Latest videos", f"YouTube {P['links']['youtube']['handle']}", "yt", "card")
             out[f"label-videos-phone-{t}.svg"] = phone.label_phone(t, "Latest videos", "yt")
             for v in data["videos"]["videos"]:
                 out[f"video-{v['id']}-{t}.svg"] = cards.video(t, v)
                 out[f"video-{v['id']}-phone-{t}.svg"] = phone.video_phone(t, v)
         for key, name, fill, icon in (("youtube", "yt", "yt", "play"), ("x", "x", "x", None), ("linkedin", "li", "lx", None), ("site", "site", "card", None)):
+            if key not in P["links"]:
+                continue
             L = P["links"][key]
             out[f"badge-{name}-{t}.svg"] = cards.badge(t, L["label"], L["handle"], fill, icon)
         for a in P["apps"]:
