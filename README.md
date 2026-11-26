@@ -1,8 +1,8 @@
 <a href="mailto:azariyasmekonen@gmail.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/hero-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Hi, I&#x27;m Azariyas. Software Developer | AI + Cloud + Scalable Systems"></picture></a>
 
 <p align="center">
-<a href="https://instagram.com/c0d5_kn4ght"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-yt-dark.svg"><img src="assets/badge-yt-light.svg" height="44" alt="Instagram @c0d5_kn4ght"></picture></a>
-<a href="https://x.com/azariyasme90324"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-x-dark.svg"><img src="assets/badge-x-light.svg" height="44" alt="X @azariyasme90324"></picture></a>
+<a href="https://instagram.com/az4ri_ah"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-yt-dark.svg"><img src="assets/badge-yt-light.svg" height="44" alt="Instagram @az4ri_ah"></picture></a>
+<a href="https://x.com/iamazariyas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-x-dark.svg"><img src="assets/badge-x-light.svg" height="44" alt="X @iamazariyas"></picture></a>
 <a href="https://linkedin.com/in/azariyas-mekonen-000774378"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-li-dark.svg"><img src="assets/badge-li-light.svg" height="44" alt="LinkedIn azariyas-mekonen"></picture></a>
 <a href="mailto:azariyasmekonen@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-site-dark.svg"><img src="assets/badge-site-light.svg" height="44" alt="Email azariyasmekonen@gmail.com"></picture></a>
 </p>
