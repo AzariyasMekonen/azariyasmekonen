@@ -6,19 +6,19 @@
 <a href="mailto:azariyasmekonen@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badge-site-dark.svg"><img src="assets/badge-site-light.svg" height="44" alt="Email azariyasmekonen@gmail.com"></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/github-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/github-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/github-dark.svg"><img src="assets/github-light.svg" width="100%" alt="On GitHub: 1,290 contributions in the last year, a 70-day current streak, since 18 Sep, longest streak 70 days, 1,437 contributions since 2023, 37 public repos, 42 stars earned, 0 downloads of my releases."></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/github-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/github-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/github-dark.svg"><img src="assets/github-light.svg" width="100%" alt="On GitHub: 1,292 contributions in the last year, a 70-day current streak, since 18 Sep, longest streak 70 days, 1,439 contributions since 2023, 37 public repos, 42 stars earned, 0 downloads of my releases."></picture>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-6m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-6m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-6m-dark.svg"><img src="assets/graph-6m-light.svg" width="100%" alt="1,235 contributions in the last 6 months"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-6m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-6m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-6m-dark.svg"><img src="assets/graph-6m-light.svg" width="100%" alt="1,237 contributions in the last 6 months"></picture>
 
-<details><summary>Last 12 months: 1,290 contributions</summary>
+<details><summary>Last 12 months: 1,292 contributions</summary>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-12m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-12m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-12m-dark.svg"><img src="assets/graph-12m-light.svg" width="100%" alt="1,290 contributions in the last 12 months"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-12m-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-12m-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-12m-dark.svg"><img src="assets/graph-12m-light.svg" width="100%" alt="1,292 contributions in the last 12 months"></picture>
 
 </details>
 
-<details><summary>2026: 1,285 contributions</summary>
+<details><summary>2026: 1,287 contributions</summary>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-2026-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-2026-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-2026-dark.svg"><img src="assets/graph-2026-light.svg" width="100%" alt="1,285 contributions in 2026"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/graph-2026-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/graph-2026-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/graph-2026-dark.svg"><img src="assets/graph-2026-light.svg" width="100%" alt="1,287 contributions in 2026"></picture>
 
 </details>
 
@@ -40,7 +40,7 @@
 
 </details>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/line-30d-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/line-30d-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/line-30d-dark.svg"><img src="assets/line-30d-light.svg" width="100%" alt="350 contributions in the last 30 days"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/line-30d-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/line-30d-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/line-30d-dark.svg"><img src="assets/line-30d-light.svg" width="100%" alt="338 contributions in the last 30 days"></picture>
 
 <picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/whoami-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/whoami-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg"><img src="assets/whoami-light.svg" width="100%" alt="whoami: Azariyas, software developer, Addis Ababa, Ethiopia. I build AI-powered platforms, scalable systems, and developer tools. Now: Building AI agents, automation pipelines, and developer tooling. Developing Rage-Baiter AI voice agent systems. Engineering secure CTF infrastructure at Adwa-CTF."></picture>
 
@@ -52,3 +52,7 @@
 <a href="https://github.com/AzariyasMekonen/OWEN"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/app-owen-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/app-owen-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/app-owen-dark.svg"><img src="assets/app-owen-light.svg" width="49%" alt="OWEN: AI developer assistant and intelligent workflow execution engine. In the works, AI Assistant, TypeScript."></picture></a>
 <a href="https://adwactf.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/app-adwactf-phone-dark.svg"><source media="(max-width: 600px)" srcset="assets/app-adwactf-phone-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/app-adwactf-dark.svg"><img src="assets/app-adwactf-light.svg" width="49%" alt="AdwaCTF: Cybersecurity CTF competition platform frontend &amp; scoreboard. Active, CTF Platform, adwactf.com."></picture></a>
 </p>
+
+<p align="center"><sub>More projects & code: <a href="https://github.com/AzariyasMekonen/AMHARIC-ACOS">AMHARIC-ACOS</a> · <a href="https://github.com/AzariyasMekonen/doc2deck">doc2deck</a> · <a href="https://github.com/AzariyasMekonen/baratieri-war-console">baratieri-war-console</a> · <a href="https://github.com/AzariyasMekonen/captured-maxim-gun">captured-maxim-gun</a></sub></p>
+
+<p align="center"><sub>Interactive SVG Profile Cards · metrics updated nightly by GitHub Actions · <a href="https://github.com/AzariyasMekonen">github.com/AzariyasMekonen</a></sub></p>
